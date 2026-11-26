@@ -1,0 +1,2 @@
+# À générer après installation et validation de l'environnement :
+# python -m pip freeze > requirements-lock.txt

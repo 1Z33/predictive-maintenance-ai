@@ -1,0 +1,25 @@
+# Environnements
+.venv/
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets / configuration locale
+.env
+.env.*
+
+# Données et artefacts volumineux (ne pas commiter)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+
+# Sorties temporaires
+*.pyc
+.DS_Store
+Thumbs.db
+.streamlit/secrets.toml
